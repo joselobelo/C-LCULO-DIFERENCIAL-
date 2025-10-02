@@ -1,0 +1,254 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage{float}
+\usepackage{setspace}
+
+% Configuración de espaciado y párrafos
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0em}
+\onehalfspacing
+
+\begin{document}
+
+% --- PORTADA ---
+\begin{center}
+    \textbf{Tarea 3 - Límites y Continuidad}
+
+    \vspace{2cm}
+
+    \textbf{Estudiante A} \\
+    \textbf{C.C. XXXXXXXXXX}
+
+    \vspace{2cm}
+
+    \textbf{Cálculo Diferencial -- 100410} \\
+    \textbf{Grupo: 100410\_XX}
+
+    \vspace{2cm}
+
+    \textbf{Presentado al tutor (a):} \\
+    [Nombre del Tutor]
+
+    \vspace{3cm}
+
+    \textbf{UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA - UNAD} \\
+    \textbf{ESCUELA DE CIENCIAS BÁSICAS, TECNOLOGÍA E INGENIERÍA} \\
+    \textbf{[CIUDAD]} \\
+    \textbf{[AÑO]}
+\end{center}
+
+\newpage
+
+% --- INTRODUCCIÓN ---
+\section*{Introducción}
+
+El estudio del cálculo diferencial representa una de las conquistas intelectuales más significativas en la historia de las matemáticas, proporcionando un lenguaje preciso para describir y analizar el cambio. En el corazón de esta disciplina yacen los conceptos de límites y continuidad, pilares fundamentales sobre los cuales se erigen las nociones de derivada e integral. Un límite puede ser concebido como el valor al que una función se aproxima a medida que la entrada se acerca a un determinado punto, una idea que, aunque intuitiva, requirió siglos de desarrollo para su formalización rigurosa. Este concepto es indispensable not only para definir la derivada como el límite de un cociente de incrementos, sino también para comprender el comportamiento asintótico de las funciones y resolver indeterminaciones que surgen en modelos matemáticos complejos.
+
+La relevancia de los límites y la continuidad trasciende el ámbito puramente teórico, encontrando aplicaciones directas y profundas en una vasta gama de disciplinas científicas y tecnológicas. En física, por ejemplo, la velocidad instantánea y la aceleración se definen como límites. En economía, los conceptos de costo marginal e ingreso marginal, cruciales para la toma de decisiones empresariales, son aplicaciones directas de la derivada, que a su vez se basa en límites. La ingeniería utiliza estos principios para analizar la estabilidad de estructuras, el flujo de fluidos y el comportamiento de circuitos eléctricos. Por tanto, el dominio de los límites y la continuidad no es un mero ejercicio académico, sino una competencia esencial para modelar, interpretar y resolver problemas del mundo real donde las cantidades varían de manera continua.
+
+El presente trabajo aborda de manera sistemática el estudio de estos conceptos a través de la resolución de cinco ejercicios diseñados para desarrollar una comprensión progresiva y profunda. El primer ejercicio se centra en el cálculo de un límite al infinito para una función racional, explorando el comportamiento de la función a gran escala. El segundo ejercicio evalúa un límite indeterminado del tipo 0/0, requiriendo técnicas de factorización para su resolución. El tercer ejercicio analiza un límite trigonométrico, haciendo uso de identidades y límites notables. El cuarto ejercicio profundiza en la continuidad de una función a trozos, determinando los valores de los parámetros que garantizan la ausencia de saltos o rupturas en su gráfica. Finalmente, el quinto ejercicio presenta un problema de aplicación, contextualizando los conceptos teóricos en un escenario práctico.
+
+La metodología empleada para el desarrollo de esta tarea se fundamenta en un enfoque dual que combina el rigor del análisis algebraico con la potencia de la verificación gráfica. Cada límite y problema de continuidad se resuelve primero de manera analítica, detallando cada paso del procedimiento matemático, desde la evaluación inicial y la identificación de indeterminaciones hasta la aplicación de propiedades, teoremas y técnicas algebraicas pertinentes. Posteriormente, cada resultado se corrobora utilizando el software de matemática dinámica GeoGebra. Esta herramienta no solo permite confirmar la validez de las soluciones obtenidas, sino que también ofrece una visualización intuitiva del comportamiento de las funciones cerca de los puntos de interés, fortaleciendo la conexión entre la representación simbólica y la interpretación geométrica.
+
+En última instancia, el propósito de este trabajo es doble. Por un lado, busca consolidar el dominio técnico sobre el cálculo de límites y el análisis de la continuidad, competencias operativas indispensables para el avance en el estudio del cálculo. Por otro lado, aspira a fomentar una comprensión conceptual robusta, permitiendo al estudiante no solo ejecutar algoritmos, sino también interpretar el significado de un límite, la condición de continuidad y sus implicaciones en diversos contextos. Al completar esta tarea, se espera haber desarrollado una base sólida que facilite la transición hacia conceptos más avanzados como la derivada y sus múltiples aplicaciones, apreciando la elegancia y la utilidad del cálculo como herramienta fundamental de análisis.
+
+\newpage
+
+% --- OBJETIVOS ---
+\section*{Objetivos}
+
+\subsection*{Objetivo General}
+
+Analizar y aplicar los conceptos fundamentales de límites y continuidad a través de la resolución de problemas teóricos y de aplicación, utilizando procedimientos algebraicos rigurosos y la verificación gráfica mediante herramientas tecnológicas como GeoGebra, para fortalecer la comprensión del comportamiento de funciones en puntos específicos y en el infinito.
+
+\subsection*{Objetivos Específicos}
+
+Evaluar el comportamiento de una función racional cuando su variable tiende al infinito, aplicando técnicas de división por la máxima potencia para determinar la existencia y el valor de su asíntota horizontal, y verificando el resultado gráficamente.
+
+Resolver un límite que presenta una indeterminación del tipo cero sobre cero, empleando métodos de factorización de polinomios para simplificar la expresión y encontrar el verdadero valor al que se aproxima la función, comprobando la solución a través de la inspección visual de la gráfica en el punto de interés.
+
+Calcular un límite trigonométrico que involucra funciones seno y/o coseno, utilizando identidades trigonométricas fundamentales y límites notables para transformar la expresión y resolver la indeterminación, corroborando el resultado mediante el análisis gráfico de la función.
+
+Determinar los valores de las constantes que aseguran la continuidad de una función definida a trozos en todo su dominio, planteando y resolviendo un sistema de ecuaciones basado en la igualdad de los límites laterales en los puntos de transición, y validando la solución con la representación gráfica de la función resultante.
+
+Modelar y resolver un problema de aplicación que involucre conceptos de límites y continuidad, traduciendo un escenario del mundo real a un lenguaje matemático, aplicando las técnicas de cálculo apropiadas para encontrar una solución y verificando su validez e interpretación en el contexto del problema.
+
+\newpage
+
+% --- DESARROLLO DE EJERCICIOS ---
+\section*{Desarrollo de los Ejercicios}
+
+\subsection*{Ejercicio 1: Límite al Infinito}
+\underline{\textbf{Calcular el siguiente límite al infinito:}}
+
+\textbf{Función asignada:}
+\[ \lim_{x \to \infty} \frac{4x^2 + 3x - 1}{2x^2 - x + 5} \]
+
+\textbf{Desarrollo paso a paso:}
+Para resolver este límite, identificamos la potencia más alta de $x$ en el denominador, que es $x^2$. Dividimos cada término del numerador y del denominador por $x^2$.
+\[ \lim_{x \to \infty} \frac{\frac{4x^2}{x^2} + \frac{3x}{x^2} - \frac{1}{x^2}}{\frac{2x^2}{x^2} - \frac{x}{x^2} + \frac{5}{x^2}} \]
+Simplificamos cada término:
+\[ \lim_{x \to \infty} \frac{4 + \frac{3}{x} - \frac{1}{x^2}}{2 - \frac{1}{x} + \frac{5}{x^2}} \]
+Ahora, aplicamos el límite. A medida que $x \to \infty$, los términos con $x$ en el denominador tienden a cero ($\frac{c}{x^n} \to 0$).
+\[ \frac{4 + 0 - 0}{2 - 0 + 0} = \frac{4}{2} = 2 \]
+\textbf{Resultado:} El valor del límite es 2. Esto implica que la función tiene una asíntota horizontal en $y=2$.
+
+\textbf{Comando GeoGebra:}
+\texttt{f(x) = (4x\textasciicircum 2 + 3x - 1) / (2x\textasciicircum 2 - x + 5)}
+\texttt{Limite(f, +∞)}
+
+\textbf{Verificación Gráfica:}
+% Espacio para la imagen de GeoGebra
+
+\newpage
+
+\subsection*{Ejercicio 2: Límite Indeterminado 0/0}
+\underline{\textbf{Calcular el siguiente límite indeterminado:}}
+
+\textbf{Función asignada:}
+\[ \lim_{x \to 3} \frac{x^2 - x - 6}{x^2 - 4x + 3} \]
+
+\textbf{Desarrollo paso a paso:}
+Al evaluar directamente la función en $x=3$, obtenemos $\frac{3^2 - 3 - 6}{3^2 - 4(3) + 3} = \frac{9-9}{9-12+3} = \frac{0}{0}$, que es una indeterminación. Procedemos a factorizar los polinomios del numerador y del denominador.
+\begin{itemize}
+    \item Numerador: $x^2 - x - 6 = (x-3)(x+2)$
+    \item Denominador: $x^2 - 4x + 3 = (x-3)(x-1)$
+\end{itemize}
+Sustituimos las factorizaciones en el límite:
+\[ \lim_{x \to 3} \frac{(x-3)(x+2)}{(x-3)(x-1)} \]
+Cancelamos el término común $(x-3)$, que es el que causa la indeterminación:
+\[ \lim_{x \to 3} \frac{x+2}{x-1} \]
+Ahora evaluamos el límite simplificado en $x=3$:
+\[ \frac{3+2}{3-1} = \frac{5}{2} = 2.5 \]
+\textbf{Resultado:} El valor del límite es 2.5.
+
+\textbf{Comando GeoGebra:}
+\texttt{f(x) = (x\textasciicircum 2 - x - 6) / (x\textasciicircum 2 - 4x + 3)}
+\texttt{Limite(f, 3)}
+
+\textbf{Verificación Gráfica:}
+% Espacio para la imagen de GeoGebra
+
+\newpage
+
+\subsection*{Ejercicio 3: Límite Trigonométrico}
+\underline{\textbf{Calcular el siguiente límite trigonométrico:}}
+
+\textbf{Función asignada:}
+\[ \lim_{x \to 0} \frac{\sin(5x)}{3x} \]
+
+\textbf{Desarrollo paso a paso:}
+Al evaluar en $x=0$, obtenemos $\frac{\sin(0)}{0} = \frac{0}{0}$, una indeterminación. Usamos el límite notable $\lim_{u \to 0} \frac{\sin(u)}{u} = 1$.
+Primero, extraemos la constante del denominador:
+\[ \frac{1}{3} \lim_{x \to 0} \frac{\sin(5x)}{x} \]
+Para que el argumento del seno coincida con el denominador, multiplicamos y dividimos por 5 dentro del límite:
+\[ \frac{1}{3} \lim_{x \to 0} \left( \frac{\sin(5x)}{x} \cdot \frac{5}{5} \right) \]
+Reorganizamos los términos para formar el límite notable:
+\[ \frac{5}{3} \lim_{x \to 0} \frac{\sin(5x)}{5x} \]
+Hacemos un cambio de variable $u = 5x$. Cuando $x \to 0$, $u \to 0$.
+\[ \frac{5}{3} \lim_{u \to 0} \frac{\sin(u)}{u} = \frac{5}{3} \cdot 1 = \frac{5}{3} \]
+\textbf{Resultado:} El valor del límite es 5/3.
+
+\textbf{Comando GeoGebra:}
+\texttt{f(x) = sin(5*x) / (3*x)}
+\texttt{Limite(f, 0)}
+
+\textbf{Verificación Gráfica:}
+% Espacio para la imagen de GeoGebra
+
+\newpage
+
+\subsection*{Ejercicio 4: Continuidad en Funciones a Trozos}
+\underline{\textbf{Determinar los valores de $a$ y $b$ que hacen que la función sea continua:}}
+
+\textbf{Función asignada:}
+\[ f(x) = \begin{cases} x^2 + 2x - 1 & \text{si } x < 0 \\ ax + b & \text{si } 0 \le x < 3 \\ 2x - 5 & \text{si } x \ge 3 \end{cases} \]
+
+\textbf{Desarrollo paso a paso:}
+Para que la función sea continua, los límites laterales deben ser iguales en los puntos de transición $x=0$ y $x=3$.
+\textbf{Continuidad en $x=0$:}
+\[ \lim_{x \to 0^-} f(x) = \lim_{x \to 0^+} f(x) \]
+\[ \lim_{x \to 0^-} (x^2 + 2x - 1) = \lim_{x \to 0^+} (ax + b) \]
+\[ 0^2 + 2(0) - 1 = a(0) + b \]
+\[ -1 = b \]
+\textbf{Continuidad en $x=3$:}
+\[ \lim_{x \to 3^-} f(x) = \lim_{x \to 3^+} f(x) \]
+\[ \lim_{x \to 3^-} (ax + b) = \lim_{x \to 3^+} (2x - 5) \]
+\[ a(3) + b = 2(3) - 5 \]
+\[ 3a + b = 6 - 5 \]
+\[ 3a + b = 1 \]
+Ahora, resolvemos el sistema de ecuaciones. Ya sabemos que $b=-1$. Sustituimos este valor en la segunda ecuación:
+\[ 3a + (-1) = 1 \]
+\[ 3a = 2 \]
+\[ a = \frac{2}{3} \]
+\textbf{Resultado:} Los valores que hacen la función continua son $a = 2/3$ y $b = -1$.
+
+\textbf{Comando GeoGebra:}
+\texttt{f(x) = Si(x < 0, x\textasciicircum 2 + 2x - 1, Si(0 <= x < 3, (2/3)x - 1, 2x - 5))}
+
+\textbf{Verificación Gráfica:}
+% Espacio para la imagen de GeoGebra
+
+\newpage
+
+\subsection*{Ejercicio 5: Problema de Aplicación}
+\underline{\textbf{Resolver el siguiente problema de aplicación:}}
+
+\textbf{Enunciado del problema:}
+Una empresa determina que el costo total (en miles de dólares) de producir $x$ unidades de un dispositivo es $C(x) = 750 + 4x$. El costo promedio por unidad, $C_{prom}(x)$, se calcula dividiendo el costo total entre el número de unidades. Determinar el costo promedio por unidad a largo plazo, es decir, cuando el número de unidades producidas tiende al infinito.
+
+\textbf{Desarrollo paso a paso:}
+Primero, definimos la función de costo promedio $C_{prom}(x)$:
+\[ C_{prom}(x) = \frac{C(x)}{x} = \frac{750 + 4x}{x} \]
+Para encontrar el costo promedio a largo plazo, calculamos el límite cuando $x \to \infty$:
+\[ \lim_{x \to \infty} C_{prom}(x) = \lim_{x \to \infty} \frac{750 + 4x}{x} \]
+Podemos separar la fracción:
+\[ \lim_{x \to \infty} \left( \frac{750}{x} + \frac{4x}{x} \right) = \lim_{x \to \infty} \left( \frac{750}{x} + 4 \right) \]
+Evaluamos el límite:
+\[ \lim_{x \to \infty} \frac{750}{x} + \lim_{x \to \infty} 4 = 0 + 4 = 4 \]
+\textbf{Resultado e Interpretación:} El límite del costo promedio es 4. Esto significa que a largo plazo, cuando se producen muchas unidades, el costo promedio por dispositivo se estabiliza en \$4,000. Los costos fijos iniciales se distribuyen entre tantas unidades que su impacto por unidad se vuelve insignificante.
+
+\textbf{Comando GeoGebra:}
+\texttt{P(x) = (750 + 4x) / x}
+\texttt{Limite(P, +∞)}
+
+\textbf{Verificación Gráfica:}
+% Espacio para la imagen de GeoGebra
+
+\newpage
+
+% --- CONCLUSIONES ---
+\section*{Conclusiones}
+
+La realización de este trabajo ha permitido cristalizar la comprensión del concepto de límite como pilar del cálculo diferencial. El análisis del comportamiento de una función cuando su variable tiende al infinito, abordado en el primer ejercicio, reveló la potencia de los límites para describir tendencias a gran escala y determinar la existencia de asíntotas horizontales. Esta noción es fundamental no solo en matemáticas puras, sino también en campos como la ingeniería y la economía, donde es crucial entender el comportamiento a largo plazo de los sistemas. La metodología de dividir por la máxima potencia de la variable se consolidó como una herramienta algebraica robusta para resolver este tipo de límites de manera sistemática.
+
+La exploración de límites indeterminados, específicamente del tipo 0/0, ha puesto de manifiesto la sutileza del análisis de funciones en puntos de discontinuidad evitable. La aplicación de técnicas de factorización para simplificar la expresión y eliminar la indeterminación demostró que la apariencia inicial de una función puede ocultar su verdadero comportamiento local. Este proceso refuerza la idea de que un límite describe una tendencia de aproximación, no necesariamente el valor de la función en el punto, una distinción conceptual clave que separa el álgebra del cálculo y que resulta esencial para la futura definición de la derivada.
+
+El estudio de los límites trigonométricos ha subrayado la interconexión entre el álgebra, la trigonometría y el cálculo. La resolución de estos límites exigió no solo el dominio de identidades trigonométricas, sino también la aplicación de límites fundamentales como $\lim_{x\to 0} (\sin x / x) = 1$. Este ejercicio evidenció cómo conceptos aparentemente dispares se integran para resolver problemas más complejos, y cómo la manipulación algebraica, guiada por un objetivo claro, puede transformar una expresión indeterminada en una forma evaluable, mostrando la elegancia y la estructura inherente de las matemáticas.
+
+El análisis de la continuidad en funciones definidas a trozos ha sido particularmente esclarecedor para comprender la definición formal de continuidad en un punto: la existencia del límite, la definición de la función en el punto, y la coincidencia de ambos valores. El proceso de encontrar los parámetros que garantizan la continuidad en los "puntos de sutura" de la función, mediante la igualación de los límites laterales, proporcionó una aplicación concreta y tangible de la teoría. Este ejercicio es crucial para entender cómo se pueden construir funciones complejas y suaves a partir de piezas más simples, una técnica omnipresente en modelado y computación gráfica.
+
+La resolución del problema de aplicación ha servido como puente entre la teoría abstracta y su relevancia práctica. Al traducir un escenario del mundo real a un modelo matemático basado en límites, se ha podido apreciar cómo estos conceptos permiten cuantificar y resolver problemas concretos relacionados con tasas de cambio, optimización o aproximaciones. Este ejercicio final no solo consolida las habilidades de cálculo, sino que también desarrolla la capacidad de abstracción y modelado, competencias transversales de gran valor en cualquier disciplina científica o técnica.
+
+El uso sistemático de GeoGebra como herramienta de verificación ha sido un componente integral del proceso de aprendizaje. La capacidad de visualizar instantáneamente la gráfica de una función, explorar su comportamiento alrededor de un punto mediante el zoom y corroborar los resultados de los límites calculados analíticamente ha fortalecido la intuición matemática de manera significativa. Esta sinergia entre el rigor del cálculo algebraico y la evidencia visual que proporciona la tecnología no solo aumenta la confianza en los resultados, sino que también fomenta una comprensión más profunda y multifacética de los conceptos, conectando la fórmula abstracta con su representación geométrica tangible.
+
+En síntesis, este trabajo ha proporcionado una inmersión profunda y estructurada en los conceptos de límites y continuidad. Más allá de la adquisición de destrezas operativas, el recorrido a través de los diferentes tipos de problemas ha fomentado una apreciación por la coherencia lógica y la potencia aplicativa del cálculo. Se ha consolidado la comprensión de que los límites no son solo un preliminar para la derivada, sino un concepto rico y poderoso por derecho propio, esencial para describir el cambio, la estabilidad y el comportamiento asintótico. Las competencias desarrolladas aquí constituyen una base indispensable sobre la cual se construirán los edificios más complejos del análisis matemático y sus aplicaciones.
+
+\newpage
+
+% --- REFERENCIAS BIBLIOGRÁFICAS ---
+\section*{Referencias Bibliográficas}
+
+\begin{itemize}
+    \item[] Stewart, J. (2012). \textit{Cálculo de una variable: Trascendentes tempranas} (7a ed.). Cengage Learning.
+    \item[] Larson, R., \& Edwards, B. H. (2011). \textit{Cálculo 1: De una variable} (9a ed.). McGraw-Hill.
+    \item[] Zill, D. G., \& Wright, W. S. (2011). \textit{Cálculo: Trascendentes tempranas} (4a ed.). McGraw-Hill.
+    \item[] Purcell, E. J., Varberg, D., \& Rigdon, S. E. (2007). \textit{Cálculo} (9a ed.). Pearson Educación.
+    \item[] GeoGebra. (s.f.). GeoGebra Classic. Recuperado de https://www.geogebra.org/classic
+\end{itemize}
+
+\end{document}
