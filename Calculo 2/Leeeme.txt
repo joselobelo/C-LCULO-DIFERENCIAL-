@@ -1,0 +1,746 @@
+# ANÁLISIS EXHAUSTIVO DE ESTRUCTURA Y FORMATO DEL DOCUMENTO
+## Guía para Replicación en Trabajos Académicos
+
+---
+
+## 1. ESTRUCTURA GENERAL DEL DOCUMENTO
+
+### 1.1 Portada / Encabezado
+El documento inicia con una portada informativa que incluye:
+- Título del trabajo centrado y en negrita: "RAC 1 -- Tarea 2- Funciones"
+- Datos del estudiante: Nombre completo y código estudiantil (en negrita el código)
+- Información del curso: Nombre de la materia y código numérico
+- Grupo académico específico
+- Enlace al video complementario
+- Nombre del tutor
+- Datos institucionales completos
+- Escuela o facultad
+- Periodo académico y año
+
+**Características importantes:**
+- No utiliza formato de tabla
+- Cada elemento en línea independiente
+- Jerarquía visual mediante formato de texto (negrita para destacar)
+- Todo centrado o alineado de forma coherente
+
+### 1.2 Secciones Principales
+El documento sigue esta estructura secuencial estricta:
+
+1. **Introducción** (extensa, aproximadamente 5 párrafos)
+2. **Objetivos** (divididos en General y Específicos)
+3. **Desarrollo de ejercicios** (5 ejercicios numerados)
+4. **Enlace a video** (repetido al final)
+5. **Conclusiones** (extensa, aproximadamente 7 párrafos)
+6. **Referencias Bibliográficas** (formato académico)
+7. **Pantallazos de participación**
+
+---
+
+## 2. CARACTERÍSTICAS DE LA INTRODUCCIÓN
+
+### 2.1 Extensión
+- **MUY EXTENSA**: 5 párrafos completos
+- Aproximadamente 800-1000 palabras
+- Cada párrafo tiene entre 6-10 oraciones
+
+### 2.2 Contenido y Estructura
+La introducción sigue un patrón narrativo específico:
+
+**Párrafo 1:** Contextualización general
+- Presenta el tema en un marco amplio
+- Establece la importancia del concepto (funciones en cálculo diferencial)
+- Usa lenguaje académico formal y elevado
+- Ejemplo de inicio: "El cálculo diferencial constituye uno de los pilares fundamentales..."
+
+**Párrafo 2:** Aplicabilidad e importancia
+- Describe aplicaciones en múltiples disciplinas
+- Enumera campos específicos (física, economía, biología, ingeniería)
+- Justifica la relevancia del estudio
+- Conecta teoría con práctica
+
+**Párrafo 3:** Descripción específica de la tarea
+- Enumera los ejercicios que se desarrollarán
+- Describe brevemente cada uno sin dar soluciones
+- Establece la progresión lógica del trabajo
+- Conecta cada ejercicio con conceptos teóricos
+
+**Párrafo 4:** Metodología
+- Explica el enfoque utilizado (análisis + verificación gráfica)
+- Menciona herramientas específicas (GeoGebra)
+- Describe el proceso paso a paso
+- Justifica la dualidad entre análisis algebraico y visualización
+
+**Párrafo 5:** Propósito y alcance
+- Reflexión sobre objetivos de aprendizaje
+- Mención de competencias a desarrollar
+- Proyección hacia conceptos futuros
+- Cierre que conecta con el cuerpo del trabajo
+
+### 2.3 Estilo de Redacción
+- **Prosa académica formal**
+- Oraciones largas y complejas (20-40 palabras por oración)
+- Uso de vocabulario técnico y especializado
+- Conectores discursivos abundantes
+- Sin abreviaciones coloquiales
+- Tercera persona impersonal predominante
+
+---
+
+## 3. CARACTERÍSTICAS DE LOS OBJETIVOS
+
+### 3.1 Estructura
+**Objetivo General:**
+- Un único objetivo amplio
+- Inicia con verbo en infinitivo (Analizar y aplicar...)
+- Integra múltiples aspectos del trabajo
+- Formato de párrafo completo, NO viñeta
+
+**Objetivos Específicos:**
+- 5 objetivos específicos (uno por cada ejercicio)
+- Cada uno es un párrafo independiente
+- **IMPORTANTE:** NO usan viñetas ni numeración
+- Cada objetivo separado por espacio en blanco
+- Todos inician con verbo en infinitivo
+
+### 3.2 Redacción de Objetivos
+Cada objetivo específico:
+- Inicia con verbo de acción académico (Determinar, Aplicar, Resolver, Analizar)
+- Describe QUÉ se hará
+- Indica CÓMO se hará (métodos/técnicas)
+- Menciona PARA QUÉ (propósito conceptual)
+- Extensión: 2-4 líneas por objetivo
+
+**Ejemplo de estructura:**
+"Determinar [qué] mediante [método], [complemento que explica el propósito o alcance del objetivo]."
+
+---
+
+## 4. DESARROLLO DE EJERCICIOS - CARACTERÍSTICAS CRÍTICAS
+
+### 4.1 Formato General de Cada Ejercicio
+
+Cada ejercicio sigue esta estructura ESTRICTA:
+
+```
+**Ejercicio X: [Título del tema]**
+
+**[Espacio para solución del ejercicio X]{.underline}**
+
+[Descripción breve del tipo de problema]
+
+[Desarrollo paso a paso]
+
+**Comando GeoGebra:** [código específico]
+
+[Imagen de GeoGebra]
+```
+
+### 4.2 Desarrollo Paso a Paso - CRÍTICO
+
+**CARACTERÍSTICA FUNDAMENTAL: TODO ES PROSA, NUNCA VIÑETAS**
+
+El desarrollo de cada ejercicio sigue estos principios:
+
+#### 4.2.1 Etiquetas en Negrita
+Cada paso se identifica con una etiqueta descriptiva en negrita seguida de dos puntos:
+
+```
+**Función asignada:** [contenido]
+**Tipo de función:** [contenido]
+**Determinación analítica del dominio:** [contenido]
+**Dominio:** [resultado con notación matemática]
+```
+
+#### 4.2.2 Procedimiento Completo
+- **CADA PASO SE EXPLICA**, no se omite nada
+- Después de la etiqueta viene la explicación en prosa
+- Las operaciones matemáticas se muestran explícitamente
+- Se justifica cada decisión matemática
+
+**Ejemplo real del documento:**
+```
+**Determinación analítica del vértice:**
+$x_{v} = - \frac{b}{2a} = - \frac{0}{2(3)} = 0$
+
+$$y_{v} = f(0) = 3(0)^{2} + 1 = 1$$
+
+**Vértice:** $V(0.0,1.0)$
+
+**Determinación analítica del rango:** Como $a = 3 > 0$, la parábola
+abre hacia arriba, por tanto el vértice representa el valor mínimo.
+
+**Rango:** $\text{Ran}(f) = \lbrack 1.0, + \infty)$
+```
+
+Observa que:
+- Cada concepto tiene su etiqueta en negrita
+- Las fórmulas se desarrollan paso a paso
+- Se explica el razonamiento ("Como a = 3 > 0...")
+- Los resultados se presentan con notación matemática formal
+- NO hay lista numerada ni viñetas
+
+#### 4.2.3 Uso del Editor de Ecuaciones de Word
+
+**DATO CRÍTICO:** El documento contiene **100 ecuaciones** creadas con el editor de ecuaciones de Word (MathML/OMML).
+
+Características del uso de ecuaciones:
+- **TODAS las expresiones matemáticas significativas usan el editor de ecuaciones**
+- No se escribe matemática en texto plano (ej: NO escribir "x^2", sino usar ecuación)
+- Las ecuaciones se insertan en línea con el texto
+- Las ecuaciones centradas se usan para desarrollos importantes
+- Formato profesional consistente
+
+Cuándo usar ecuación en línea:
+- Variables individuales: $x$, $f(x)$, $a = 3$
+- Expresiones breves: $x_{v} = 0$
+- Dominios y rangos: $\text{Dom}(f) = \mathbb{R}$
+
+Cuándo usar ecuación centrada:
+- Fórmulas completas importantes
+- Desarrollos de varios pasos
+- Resultados finales destacados
+
+**Ejemplo de patrón común:**
+```
+**Determinación analítica de X:**
+[Ecuación centrada con desarrollo]
+
+**Resultado:** [Ecuación en línea con resultado]
+
+**Interpretación:** [Texto explicativo]
+```
+
+### 4.3 Secuencia de Contenido en Cada Ejercicio
+
+1. **Enunciado/Datos iniciales** con etiqueta en negrita
+2. **Identificación del tipo** (de función, problema, etc.)
+3. **Procedimiento analítico** con TODOS los pasos
+4. **Resultados parciales** identificados con etiquetas
+5. **Resultado final** destacado
+6. **Verificación con GeoGebra:**
+   - Comando específico en texto plano
+   - Captura de pantalla de GeoGebra
+   - La imagen se integra en el flujo del documento
+
+### 4.4 Comprobaciones y Verificaciones
+
+**IMPORTANTE:** No se dan respuestas directas sin mostrar el proceso.
+
+Patrón típico:
+1. Se plantea qué se va a determinar
+2. Se muestra la fórmula o método a usar
+3. Se desarrolla paso a paso con ecuaciones
+4. Se obtiene el resultado
+5. Se verifica gráficamente con GeoGebra
+6. Se interpreta el resultado si es necesario
+
+**NO se acepta:**
+- "El dominio es todos los reales" sin explicar por qué
+- Saltar pasos algebraicos
+- Dar solo el resultado sin proceso
+- Usar abreviaciones sin definirlas primero
+
+**SÍ se hace:**
+- "Para funciones polinómicas, el dominio comprende todos los números reales."
+- Mostrar: $x_v = -\frac{b}{2a} = -\frac{0}{2(3)} = 0$
+- Justificar: "Como $a = 3 > 0$, la parábola abre hacia arriba..."
+
+---
+
+## 5. CONCLUSIONES - ESTRUCTURA DETALLADA
+
+### 5.1 Extensión y Formato
+- **MUY EXTENSAS**: 7 párrafos densos
+- Aproximadamente 1200-1500 palabras
+- Cada párrafo tiene 8-12 oraciones
+- Prosa continua sin listas ni viñetas
+
+### 5.2 Contenido Párrafo por Párrafo
+
+**Párrafo 1:** Reflexión sobre el primer tema/ejercicio
+- Analiza aprendizajes del ejercicio 1
+- Conecta con conceptos teóricos generales
+- Destaca la dualidad entre diferentes enfoques
+- Cierra con reflexión sobre la importancia del concepto
+
+**Párrafo 2:** Reflexión sobre el segundo tema/ejercicio
+- Profundiza en los conceptos del ejercicio 2
+- Destaca elegancia o potencia del método
+- Conecta teoría con visualización
+- Reflexión sobre implicaciones didácticas
+
+**Párrafos 3-5:** Reflexiones sobre ejercicios restantes
+- Siguen el mismo patrón
+- Cada uno analiza un aspecto específico del ejercicio correspondiente
+- Enfatizan aprendizajes conceptuales, no procedimentales
+- Conectan con aplicaciones prácticas cuando corresponde
+
+**Párrafo 6:** Reflexión sobre herramientas tecnológicas
+- Analiza el papel de GeoGebra u otras herramientas
+- Reflexiona sobre integración tecnología-matemática
+- Menciona competencias digitales desarrolladas
+- Conexión con práctica matemática contemporánea
+
+**Párrafo 7:** Síntesis final
+- Integra todos los aprendizajes
+- Destaca competencias desarrolladas
+- Proyecta hacia futuros aprendizajes
+- Cierre reflexivo y académico
+- Menciona aplicabilidad en contextos amplios
+
+### 5.3 Estilo de las Conclusiones
+
+Características del estilo:
+- **Lenguaje académico elevado y formal**
+- Uso de conectores complejos
+- Reflexión profunda, no mera repetición
+- Enfoque en CONCEPTOS y APRENDIZAJES, no en resultados numéricos
+- Integración entre diferentes aspectos del trabajo
+- Perspectiva meta-cognitiva (reflexión sobre el proceso de aprendizaje)
+
+**NO se hace:**
+- "En el ejercicio 1 encontramos que el dominio es..."
+- Listar resultados numéricos
+- Repetir procedimientos
+- Conclusiones superficiales o breves
+
+**SÍ se hace:**
+- "El análisis de las funciones matemáticas realizado a lo largo de esta tarea ha revelado la profunda conexión entre..."
+- Reflexionar sobre el significado conceptual
+- Conectar diferentes ejercicios temáticamente
+- Analizar el proceso de aprendizaje mismo
+
+---
+
+## 6. ASPECTOS DE FORMATO Y ESTILO
+
+### 6.1 Uso de Negrita
+La negrita se usa EXCLUSIVAMENTE para:
+- Títulos de secciones
+- Etiquetas de pasos ("**Dominio:**", "**Función asignada:**")
+- Algunos códigos numéricos importantes
+- **NUNCA** para enfatizar en medio de párrafos de prosa
+
+### 6.2 Subrayado
+El subrayado se usa ÚNICAMENTE para:
+- Títulos de subsecciones específicas como "[Espacio para solución del ejercicio X]{.underline}"
+- **NO** se usa para énfasis en el cuerpo del texto
+
+### 6.3 Cursivas
+Las cursivas se usan para:
+- Títulos de libros en las referencias: *Cálculo* (10a ed.)
+- **NO** se abusa de cursivas en el texto general
+
+### 6.4 Párrafos y Espaciado
+- Párrafos completos y densos
+- Separación entre párrafos mediante espacio en blanco
+- **NO** se usan saltos de línea innecesarios dentro de párrafos
+- Cada párrafo desarrolla una idea completa
+- Longitud típica: 5-10 líneas por párrafo en el documento final
+
+### 6.5 Alineación
+- Introducción, desarrollo y conclusiones: justificado completo
+- Títulos principales: pueden ir centrados o alineados a la izquierda
+- Ecuaciones importantes: centradas
+- Etiquetas de pasos: alineadas con el texto
+
+---
+
+## 7. ELEMENTOS MATEMÁTICOS - GUÍA DE USO
+
+### 7.1 Notación Matemática
+Todas las expresiones matemáticas siguen notación estándar formal:
+- Variables en cursiva matemática: $x$, $f(x)$, $a$, $b$
+- Funciones con paréntesis: $f(x)$, $C(x)$
+- Subíndices para identificadores: $x_v$ (vértice), $x_{\text{óptimo}}$
+- Conjuntos numéricos con blackboard bold: $\mathbb{R}$
+- Infinito: $\infty$
+- Intervalos con notación estándar: $[a, b)$, $(-\infty, +\infty)$
+
+### 7.2 Desarrollo de Fórmulas
+**Patrón fundamental:**
+Se muestra la fórmula general, luego la sustitución, luego el resultado.
+
+Ejemplo:
+```
+$x_v = -\frac{b}{2a} = -\frac{0}{2(3)} = 0$
+```
+
+Esto muestra:
+1. Fórmula general: $x_v = -\frac{b}{2a}$
+2. Sustitución: $= -\frac{0}{2(3)}$
+3. Resultado: $= 0$
+
+### 7.3 Ecuaciones Multipasos
+Para desarrollos más complejos, se usan ecuaciones centradas con desarrollo paso a paso:
+
+```
+$$\overline{C}(650) = 10(650)^{2} - 13,000(650) + 200,000 = -4,025,000$$
+```
+
+Cada paso de simplificación se muestra explícitamente.
+
+---
+
+## 8. IMÁGENES Y VERIFICACIÓN GRÁFICA
+
+### 8.1 Uso de GeoGebra
+
+**Para CADA ejercicio que involucre funciones o gráficas:**
+
+1. **Comando GeoGebra** se presenta explícitamente:
+   - Formato: `**Comando GeoGebra:** código`
+   - El código se escribe en texto plano monoespaciado
+   - Ejemplo: `f(x) = 3*x^2 + 1`
+
+2. **Captura de pantalla:**
+   - Se inserta imagen de GeoGebra mostrando el resultado
+   - La imagen debe ser clara y legible
+   - Tamaño adecuado (generalmente ancho completo o cercano)
+   - Se integra en el flujo del documento después del comando
+
+### 8.2 Formato de Imágenes
+- Imágenes insertadas como parte del documento
+- Dimensiones específicas registradas (width, height)
+- Calidad suficiente para visualización
+- **NO** se colocan imágenes sin contexto previo
+
+---
+
+## 9. REFERENCIAS BIBLIOGRÁFICAS
+
+### 9.1 Formato
+Estilo APA o similar académico:
+- Autor(es). (Año). *Título en cursiva* (edición). Editorial.
+- Orden alfabético por apellido del primer autor
+- Sangría francesa (primera línea sin sangría, siguientes con sangría)
+
+### 9.2 Cantidad y Calidad
+- Entre 8-12 referencias mínimo
+- Todas relevantes al tema
+- Mezcla de libros de texto clásicos y contemporáneos
+- **NO** incluir Wikipedia o fuentes no académicas
+- Libros de editorial reconocida
+
+---
+
+## 10. ESTRUCTURA DE ARCHIVOS (TÉCNICA)
+
+### 10.1 Análisis Técnico del .docx
+
+**Estadísticas del documento analizado:**
+- 7,155 líneas de XML en document.xml
+- 258 párrafos totales
+- 100 ecuaciones matemáticas (MathML/OMML)
+- 0 listas con viñetas o numeradas automáticas
+- Múltiples imágenes insertadas (GeoGebra)
+
+### 10.2 Elementos NO Utilizados
+El documento **NO** contiene:
+- Listas automáticas de Word (bullets, numbering)
+- Tablas de contenido automáticas
+- Encabezados y pies de página complejos
+- Comentarios o marcas de revisión
+- Hipervínculos dentro del documento (solo URLs externas)
+
+---
+
+## 11. PRINCIPIOS FUNDAMENTALES PARA REPLICACIÓN
+
+### 11.1 Principio de Prosa Continua
+**CRÍTICO:** Todo el contenido es prosa narrativa.
+- NO usar viñetas para enumerar
+- NO usar listas numeradas automáticas
+- Incluso cuando hay múltiples elementos, se escriben en prosa
+- Ejemplo: "algunos aspectos incluyen: x, y, z" en lugar de lista
+
+### 11.2 Principio de Desarrollo Completo
+**CRÍTICO:** Cada paso se muestra y explica.
+- Nunca saltar pasos algebraicos
+- Siempre justificar decisiones matemáticas
+- Mostrar sustituciones explícitas
+- Explicar el razonamiento detrás de cada procedimiento
+
+### 11.3 Principio de Etiquetado Descriptivo
+**CRÍTICO:** Cada sección se identifica con etiqueta en negrita.
+- Formato: **Etiqueta descriptiva:** [contenido]
+- Las etiquetas son descriptivas, no genéricas
+- Consistencia en el uso de etiquetas similares
+- Ejemplo: **Determinación analítica del dominio:** vs **Dominio:**
+
+### 11.4 Principio de Verificación
+**CRÍTICO:** Todo resultado se verifica gráficamente.
+- Usar GeoGebra u otra herramienta
+- Mostrar el comando utilizado
+- Incluir captura de pantalla
+- La verificación gráfica complementa, no reemplaza el análisis
+
+### 11.5 Principio de Formalidad Académica
+**CRÍTICO:** Lenguaje académico elevado en introducción y conclusiones.
+- Vocabulario técnico y especializado
+- Oraciones complejas bien construidas
+- Conectores discursivos variados
+- Reflexión profunda, no superficial
+
+---
+
+## 12. CHECKLIST PARA REPLICACIÓN
+
+### Antes de comenzar:
+- [ ] Definir estructura del documento (cuántos ejercicios, qué temas)
+- [ ] Recopilar referencias bibliográficas académicas relevantes
+- [ ] Familiarizarse con GeoGebra u otra herramienta de verificación
+- [ ] Asegurar acceso al editor de ecuaciones de Word
+
+### Durante la escritura:
+
+**Portada/Encabezado:**
+- [ ] Incluir todos los datos requeridos
+- [ ] Formato limpio sin tablas
+- [ ] Enlace a video complementario
+
+**Introducción (800-1000 palabras):**
+- [ ] Párrafo 1: Contextualización general
+- [ ] Párrafo 2: Importancia y aplicabilidad
+- [ ] Párrafo 3: Descripción de ejercicios
+- [ ] Párrafo 4: Metodología
+- [ ] Párrafo 5: Propósito y alcance
+- [ ] Lenguaje académico elevado
+- [ ] Sin listas ni viñetas
+- [ ] Oraciones largas y complejas
+
+**Objetivos:**
+- [ ] Un objetivo general integrador
+- [ ] Objetivos específicos (uno por ejercicio)
+- [ ] Todos inician con verbo en infinitivo
+- [ ] Formato de párrafos, NO viñetas
+- [ ] Cada objetivo bien desarrollado (2-4 líneas)
+
+**Cada Ejercicio:**
+- [ ] Título claro con número
+- [ ] Descripción breve del tipo de problema
+- [ ] Desarrollo paso a paso con etiquetas en negrita
+- [ ] TODAS las ecuaciones con editor de ecuaciones
+- [ ] Cada paso explicado, no solo mostrado
+- [ ] Justificaciones matemáticas cuando corresponda
+- [ ] Comando de GeoGebra presentado explícitamente
+- [ ] Captura de pantalla de GeoGebra
+- [ ] Sin viñetas ni listas numeradas
+- [ ] Prosa continua
+
+**Conclusiones (1200-1500 palabras):**
+- [ ] 7 párrafos densos
+- [ ] Cada párrafo reflexiona sobre un ejercicio o aspecto
+- [ ] Énfasis en aprendizajes conceptuales
+- [ ] Lenguaje académico elevado
+- [ ] Integración entre diferentes temas
+- [ ] Reflexión sobre herramientas tecnológicas
+- [ ] Síntesis final proyectiva
+- [ ] Sin listas ni viñetas
+
+**Referencias:**
+- [ ] 8-12 referencias académicas
+- [ ] Formato APA consistente
+- [ ] Orden alfabético
+- [ ] Solo fuentes académicas de calidad
+
+**Formato General:**
+- [ ] Sin listas automáticas de Word
+- [ ] Todas las matemáticas con editor de ecuaciones
+- [ ] Negrita solo para títulos y etiquetas
+- [ ] Párrafos densos y bien desarrollados
+- [ ] Imágenes integradas apropiadamente
+
+### Revisión Final:
+- [ ] Lectura completa verificando coherencia
+- [ ] Todas las ecuaciones formateadas correctamente
+- [ ] Sin viñetas en todo el documento
+- [ ] Introducción y conclusiones extensas y reflexivas
+- [ ] Todos los pasos mostrados explícitamente
+- [ ] Verificación gráfica para cada ejercicio aplicable
+- [ ] Referencias completas y bien formateadas
+- [ ] Ortografía y gramática impecables
+
+---
+
+## 13. ERRORES COMUNES A EVITAR
+
+### 13.1 Errores de Formato
+❌ **NO HACER:**
+- Usar viñetas o listas numeradas automáticas
+- Escribir matemática en texto plano (ej: x^2 en lugar de ecuación)
+- Párrafos cortos de 1-2 oraciones
+- Introducción o conclusiones breves
+- Saltar pasos en desarrollos matemáticos
+- Usar abreviaciones coloquiales
+
+✅ **SÍ HACER:**
+- Prosa continua en todo momento
+- Todas las expresiones matemáticas con editor de ecuaciones
+- Párrafos densos de 5-10 líneas
+- Introducción y conclusiones extensas
+- Mostrar cada paso explícitamente
+- Lenguaje formal académico
+
+### 13.2 Errores de Contenido
+❌ **NO HACER:**
+- Dar resultados sin proceso
+- Omitir justificaciones
+- Conclusiones que solo repiten resultados numéricos
+- Introducción genérica sin sustancia
+- Objetivos vagos o muy breves
+
+✅ **SÍ HACER:**
+- Desarrollo completo paso a paso
+- Justificar decisiones matemáticas
+- Conclusiones reflexivas y conceptuales
+- Introducción contextualizada y profunda
+- Objetivos específicos y bien desarrollados
+
+### 13.3 Errores de Estilo
+❌ **NO HACER:**
+- Lenguaje coloquial o informal
+- Oraciones simples y cortas
+- Falta de conectores discursivos
+- Repeticiones innecesarias
+- Primera persona narrativa
+
+✅ **SÍ HACER:**
+- Lenguaje académico elevado
+- Oraciones complejas bien estructuradas
+- Conectores variados y apropiados
+- Vocabulario técnico preciso
+- Tercera persona impersonal
+
+---
+
+## 14. PLANTILLA ESQUEMÁTICA
+
+```
+[PORTADA]
+Título del trabajo
+Datos del estudiante
+Información del curso
+Enlace a video
+Tutor
+Institución
+Escuela
+Periodo y año
+
+[INTRODUCCIÓN - 5 PÁRRAFOS]
+Párrafo 1: Contextualización (6-10 oraciones)
+Párrafo 2: Importancia y aplicaciones (6-10 oraciones)
+Párrafo 3: Descripción de ejercicios (6-10 oraciones)
+Párrafo 4: Metodología (6-10 oraciones)
+Párrafo 5: Propósito y alcance (6-10 oraciones)
+
+[OBJETIVOS]
+## General
+Un párrafo desarrollado con el objetivo general
+
+## Específicos
+Párrafo 1 con objetivo específico 1
+[espacio]
+Párrafo 2 con objetivo específico 2
+[espacio]
+Párrafo 3 con objetivo específico 3
+[espacio]
+...
+
+[EJERCICIO 1]
+**Ejercicio 1: [Título]**
+**[Espacio para solución del ejercicio 1]{.underline}**
+[Descripción breve]
+
+**Dato inicial 1:** [contenido con ecuaciones]
+**Dato inicial 2:** [contenido con ecuaciones]
+**Procedimiento paso 1:** [desarrollo con ecuaciones]
+**Resultado parcial 1:** [ecuación]
+**Procedimiento paso 2:** [desarrollo con ecuaciones]
+**Resultado final:** [ecuación]
+
+**Comando GeoGebra:** `código`
+[Imagen de GeoGebra]
+
+[EJERCICIO 2]
+[Misma estructura]
+
+[...]
+
+[ENLACE A VIDEO]
+[URL]
+
+[CONCLUSIONES - 7 PÁRRAFOS]
+Párrafo 1: Reflexión sobre ejercicio 1 (8-12 oraciones)
+Párrafo 2: Reflexión sobre ejercicio 2 (8-12 oraciones)
+Párrafo 3: Reflexión sobre ejercicio 3 (8-12 oraciones)
+Párrafo 4: Reflexión sobre ejercicio 4 (8-12 oraciones)
+Párrafo 5: Reflexión sobre ejercicio 5 (8-12 oraciones)
+Párrafo 6: Reflexión sobre herramientas (8-12 oraciones)
+Párrafo 7: Síntesis final (8-12 oraciones)
+
+[REFERENCIAS BIBLIOGRÁFICAS]
+Autor1, A. (Año). Título. Editorial.
+Autor2, B. (Año). Título. Editorial.
+...
+
+[PANTALLAZOS]
+[Imágenes de participación en foros]
+```
+
+---
+
+## 15. RECOMENDACIONES FINALES
+
+### 15.1 Para Instrucciones a IA
+Si vas a dar estas características a una IA para generar trabajos similares, enfatiza:
+
+1. **"PROSA LARGA Y CONTINUA"** - Repetir múltiples veces
+2. **"SIN VIÑETAS EN NINGUNA PARTE"** - Dejar claro que es prohibido
+3. **"PASO A PASO EXPLÍCITO"** - Cada operación matemática visible
+4. **"EDITOR DE ECUACIONES PARA TODA MATEMÁTICA"** - No usar texto plano
+5. **"INTRODUCCIÓN Y CONCLUSIONES EXTENSAS"** - Al menos 800 y 1200 palabras respectivamente
+6. **"ETIQUETAS EN NEGRITA PARA CADA PASO"** - Formato: **Etiqueta:** contenido
+7. **"VERIFICACIÓN GRÁFICA OBLIGATORIA"** - Con comando y captura
+
+### 15.2 Ejemplos de Prompts Efectivos
+
+**Para introducción:**
+"Escribe una introducción de 5 párrafos densos (800-1000 palabras) sin usar viñetas. Cada párrafo debe tener 6-10 oraciones complejas. Usa lenguaje académico elevado. Estructura: 1) Contextualización general del tema, 2) Importancia y aplicaciones, 3) Descripción específica de los ejercicios, 4) Metodología empleada, 5) Propósito y alcance del trabajo."
+
+**Para desarrollo de ejercicios:**
+"Desarrolla el ejercicio usando SOLO prosa continua, SIN viñetas. Usa etiquetas en negrita para cada paso (formato **Etiqueta:** contenido). Muestra CADA paso matemático explícitamente usando el editor de ecuaciones. Justifica cada decisión. Incluye comando de GeoGebra y describe la verificación gráfica. Mínimo 300 palabras por ejercicio."
+
+**Para conclusiones:**
+"Escribe 7 párrafos de conclusiones (1200-1500 palabras) sin viñetas. Cada párrafo debe reflexionar sobre conceptos aprendidos, NO sobre resultados numéricos. Usa lenguaje académico muy elevado. Enfatiza aprendizajes conceptuales y meta-cognitivos. El último párrafo debe ser una síntesis integradora proyectiva."
+
+### 15.3 Tiempo Estimado de Elaboración
+
+Para un trabajo con esta estructura y nivel de detalle:
+- Portada y objetivos: 15-20 minutos
+- Introducción: 45-60 minutos
+- Cada ejercicio: 30-45 minutos
+- Conclusiones: 60-90 minutos
+- Referencias y formato final: 20-30 minutos
+- **Total estimado: 4-6 horas** de trabajo concentrado
+
+---
+
+## RESUMEN EJECUTIVO DE CARACTERÍSTICAS CLAVE
+
+**LO MÁS IMPORTANTE PARA REPLICAR:**
+
+1. ✅ **TODO EN PROSA** - Cero viñetas, cero listas numeradas
+2. ✅ **PASO A PASO COMPLETO** - Nunca saltar pasos matemáticos
+3. ✅ **ETIQUETAS EN NEGRITA** - Formato **Concepto:** contenido
+4. ✅ **EDITOR DE ECUACIONES SIEMPRE** - 100+ ecuaciones en documento típico
+5. ✅ **INTRODUCCIÓN LARGA** - 5 párrafos, 800-1000 palabras
+6. ✅ **CONCLUSIONES LARGAS** - 7 párrafos, 1200-1500 palabras
+7. ✅ **VERIFICACIÓN GRÁFICA** - GeoGebra con comando y captura
+8. ✅ **LENGUAJE ACADÉMICO ELEVADO** - Especialmente en intro/conclusiones
+9. ✅ **JUSTIFICACIÓN CONSTANTE** - Explicar el "porqué" de cada paso
+10. ✅ **OBJETIVOS SIN VIÑETAS** - Párrafos independientes separados
+
+---
+
+Este análisis proporciona una guía completa para replicar el estilo, estructura y formato del documento académico analizado.

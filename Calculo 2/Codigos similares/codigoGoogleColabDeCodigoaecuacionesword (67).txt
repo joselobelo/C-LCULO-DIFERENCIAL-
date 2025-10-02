@@ -1,0 +1,471 @@
+# =============================================================================
+# Script para Convertir la Tarea 2 de Álgebra a Word
+# =============================================================================
+
+# Paso 1: Definir el contenido LaTeX (pegue aquí todo el código LaTeX proporcionado)
+latex_content = r"""
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage[margin=1in]{geometry}
+
+\title{ÁLGEBRA, TRIGONOMETRÍA Y GEOMETRÍA ANALÍTICA}
+\author{[Tu nombre y apellidos] \\ Grupo: 301301\_XX}
+\date{Marzo 2025}
+
+\begin{document}
+
+\maketitle
+
+\textbf{CÓDIGO: 301301}
+
+\textbf{Tarea 2 -- Álgebra.}
+
+\textbf{Presentado al tutor (a):}
+
+[Nombre del tutor]
+
+\textbf{UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA - UNAD}
+
+\textbf{ESCUELA DE CIENCIAS BÁSICAS TECNOLOGÍA E INGENIERÍA}
+
+\textbf{[TU CIUDAD]}
+
+\section*{INTRODUCCIÓN}
+
+Algebra is a fundamental branch of mathematics that provides us with essential tools for solving problems through symbolic representations. This task on algebra is significant as it develops our analytical thinking skills by working with first-degree equations, systems of linear equations, quadratic equations, and inequalities. These mathematical concepts allow us to model and solve real-world problems in fields such as engineering, economics, and natural sciences. By applying these algebraic techniques and verifying solutions with GeoGebra software, we can strengthen our understanding of mathematical relationships and develop practical problem-solving skills that will be valuable in both academic and professional contexts.
+
+El álgebra es una rama fundamental de las matemáticas que nos proporciona herramientas esenciales para resolver problemas mediante representaciones simbólicas. Esta tarea sobre álgebra es significativa ya que desarrolla nuestras habilidades de pensamiento analítico al trabajar con ecuaciones de primer grado, sistemas de ecuaciones lineales, ecuaciones cuadráticas e inecuaciones. Estos conceptos matemáticos nos permiten modelar y resolver problemas del mundo real en campos como la ingeniería, la economía y las ciencias naturales. Al aplicar estas técnicas algebraicas y verificar las soluciones con el software GeoGebra, podemos fortalecer nuestra comprensión de las relaciones matemáticas y desarrollar habilidades prácticas de resolución de problemas que serán valiosas tanto en contextos académicos como profesionales.
+
+\section*{Desarrollo de los Ejercicios}
+
+\textbf{Letra seleccionada: B}
+
+\subsection*{Del ejercicio seleccionado del bloque 1. Ecuaciones de primer grado}
+
+\textbf{Enunciado:} La cantidad de canicas que tiene Juan, sumada a la cantidad de canicas de Lucas, es igual a 100. Si el doble de las canicas de Juan más un tercio de las canicas de Lucas es igual a 60, ¿cuántas canicas tiene cada uno?
+
+\subsubsection*{Desarrollo del ejercicio seleccionado del bloque 1: Ecuaciones de primer grado}
+
+\paragraph*{1) Representación de la situación en lenguaje algebraico:}
+
+Definamos las variables:
+\begin{itemize}
+  \item Sea $x = $ número de canicas de Juan
+  \item Sea $y = $ número de canicas de Lucas
+\end{itemize}
+
+De acuerdo con el enunciado, podemos plantear las siguientes ecuaciones:
+
+Primera condición:
+\begin{equation}
+x + y = 100
+\end{equation}
+
+Segunda condición:
+\begin{equation}
+2x + \frac{y}{3} = 60
+\end{equation}
+
+\paragraph*{2) Resolución paso a paso:}
+
+De la primera ecuación podemos despejar $y$:
+
+\begin{align}
+x + y &= 100\\
+y &= 100 - x
+\end{align}
+
+Sustituimos este valor de $y$ en la segunda ecuación:
+
+\begin{equation}
+2x + \frac{100-x}{3} = 60
+\end{equation}
+
+Operamos:
+
+\begin{equation}
+2x + \frac{100}{3} - \frac{x}{3} = 60
+\end{equation}
+
+Multiplicamos por 3 para eliminar fracciones:
+
+\begin{align}
+3\left[2x + \frac{100}{3} - \frac{x}{3} = 60\right]\\
+6x + 100 - x = 180
+\end{align}
+
+Agrupamos términos semejantes:
+
+\begin{align}
+5x + 100 &= 180\\
+5x &= 80\\
+x &= 16
+\end{align}
+
+Ahora sustituimos el valor de $x$ en la primera ecuación para encontrar $y$:
+
+\begin{align}
+y &= 100 - x\\
+y &= 100 - 16\\
+y &= 84
+\end{align}
+
+\paragraph*{3) Verificación:}
+
+Comprobemos que los valores obtenidos satisfacen ambas ecuaciones:
+
+Primera ecuación:
+\begin{align}
+x + y &= 16 + 84\\
+&= 100 \checkmark
+\end{align}
+
+Segunda ecuación:
+\begin{align}
+2x + \frac{y}{3} &= 2(16) + \frac{84}{3}\\
+&= 32 + 28\\
+&= 60 \checkmark
+\end{align}
+
+\begin{figure}[h]
+\centering
+\fbox{\includegraphics[width=0.7\textwidth]{geogebra_bloque1.png}}
+\caption{Verificación del ejercicio del bloque 1 en GeoGebra}
+\end{figure}
+
+\textbf{Respuesta:} Juan tiene 16 canicas y Lucas tiene 84 canicas.
+
+\subsection*{Del ejercicio seleccionado del bloque 2. Solución de sistemas de ecuaciones lineales 2x2.}
+
+\textbf{Enunciado:}
+\begin{align}
+\begin{cases}
+2x - 7y = 28 & \text{Ecuación 1}\\
+y = \frac{2}{7}x - 4 & \text{Ecuación 2}
+\end{cases}
+\end{align}
+
+\subsubsection*{Desarrollo del ejercicio seleccionado del bloque 2: Solución de sistemas de ecuaciones lineales 2x2.}
+
+Utilizaré el método de sustitución para resolver este sistema de ecuaciones:
+
+Paso 1: Ya tenemos despejada $y$ en la ecuación 2, así que podemos sustituir directamente en la ecuación 1:
+
+\begin{align}
+2x - 7\left(\frac{2}{7}x - 4\right) &= 28\\
+\end{align}
+
+Desarrollamos:
+
+\begin{align}
+2x - 7\left(\frac{2}{7}x\right) + 7(4) &= 28\\
+2x - 2x + 28 &= 28\\
+28 &= 28
+\end{align}
+
+Llegamos a una identidad verdadera ($28 = 28$), lo que significa que el sistema tiene infinitas soluciones. Cualquier par ordenado $(x, y)$ que cumpla con la relación $y = \frac{2}{7}x - 4$ es solución del sistema.
+
+Esto ocurre porque en realidad ambas ecuaciones representan la misma recta en el plano cartesiano.
+
+Para verificar, despejemos la variable $y$ en la ecuación 1:
+
+\begin{align}
+2x - 7y &= 28\\
+-7y &= 28 - 2x\\
+y &= \frac{28 - 2x}{-7}\\
+y &= -\frac{28 - 2x}{7}\\
+y &= -\frac{28}{7} + \frac{2x}{7}\\
+y &= -4 + \frac{2x}{7}\\
+y &= \frac{2x}{7} - 4
+\end{align}
+
+Que es exactamente igual a la ecuación 2.
+
+\begin{figure}[h]
+\centering
+\fbox{\includegraphics[width=0.7\textwidth]{geogebra_bloque2.png}}
+\caption{Verificación del ejercicio del bloque 2 en GeoGebra}
+\end{figure}
+
+\textbf{Respuesta:} La solución del sistema es el conjunto de todos los pares ordenados $(x, y)$ que satisfacen la ecuación $y = \frac{2x}{7} - 4$. Estas soluciones representan todos los puntos de una recta en el plano cartesiano.
+
+\subsection*{Del ejercicio seleccionado del bloque 3: Ecuaciones de segundo grado.}
+
+\textbf{Enunciado:} $0 = 5x^2 - 2x - 2$
+
+\subsubsection*{Desarrollo del ejercicio seleccionado del bloque 3: Ecuaciones de segundo grado.}
+
+\paragraph*{1) Identificación de los coeficientes:}
+
+La ecuación cuadrática tiene forma general: $ax^2 + bx + c = 0$
+
+Para la ecuación $0 = 5x^2 - 2x - 2$, reordenamos:
+\begin{equation}
+5x^2 - 2x - 2 = 0
+\end{equation}
+
+Por lo tanto:
+\begin{align}
+a &= 5\\
+b &= -2\\
+c &= -2
+\end{align}
+
+\paragraph*{2) Aplicación de la fórmula cuadrática:}
+
+La fórmula cuadrática es:
+
+\begin{equation}
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\end{equation}
+
+Sustituyendo los valores:
+
+\begin{align}
+x &= \frac{-(-2) \pm \sqrt{(-2)^2 - 4(5)(-2)}}{2(5)}\\
+&= \frac{2 \pm \sqrt{4 + 40}}{10}\\
+&= \frac{2 \pm \sqrt{44}}{10}\\
+&= \frac{2 \pm 2\sqrt{11}}{10}\\
+&= \frac{1 \pm \sqrt{11}}{5}
+\end{align}
+
+Por tanto, las soluciones son:
+
+\begin{align}
+x_1 &= \frac{1 + \sqrt{11}}{5} \approx 0.8631\\
+x_2 &= \frac{1 - \sqrt{11}}{5} \approx -0.4631
+\end{align}
+
+\begin{figure}[h]
+\centering
+\fbox{\includegraphics[width=0.7\textwidth]{geogebra_bloque3.png}}
+\caption{Verificación del ejercicio del bloque 3 en GeoGebra}
+\end{figure}
+
+\textbf{Respuesta:} Las raíces de la ecuación cuadrática $5x^2 - 2x - 2 = 0$ son:
+$x_1 \approx 0.8631$ y $x_2 \approx -0.4631$
+
+\subsection*{Del ejercicio seleccionado del bloque 4: Inecuaciones lineales con GeoGebra.}
+
+\textbf{Enunciado:}
+\begin{itemize}
+\item Parte 1: $5x - 2 > 2$
+\item Parte 2: $5x - 2 \geq 2$
+\item Inecuaciones simultáneas: $-1 < ax < 2$
+\end{itemize}
+
+\subsubsection*{Desarrollo del ejercicio seleccionado del bloque 4: Inecuaciones lineales con GeoGebra.}
+
+\paragraph*{Parte 1: Inecuación $5x - 2 > 2$}
+
+Resolvamos la inecuación paso a paso:
+
+\begin{align}
+5x - 2 &> 2\\
+5x &> 4\\
+x &> \frac{4}{5} = 0.8
+\end{align}
+
+Por lo tanto, el conjunto solución es: $(0.8, +\infty)$
+
+\begin{figure}[h]
+\centering
+\fbox{\includegraphics[width=0.7\textwidth]{geogebra_bloque4_1.png}}
+\caption{Verificación de la primera inecuación en GeoGebra}
+\end{figure}
+
+La región sombreada representa todos los valores de $x$ que son mayores que $0.8$. Las líneas de la región sombreada son discontinuas porque el símbolo "$>$" indica que no se incluye el valor $x = 0.8$ en la solución (es una desigualdad estricta). El intervalo solución de la inecuación es $(0.8, +\infty)$.
+
+\paragraph*{Parte 2: Inecuación $5x - 2 \geq 2$}
+
+Resolvamos la inecuación paso a paso:
+
+\begin{align}
+5x - 2 &\geq 2\\
+5x &\geq 4\\
+x &\geq \frac{4}{5} = 0.8
+\end{align}
+
+Por lo tanto, el conjunto solución es: $[0.8, +\infty)$
+
+\begin{figure}[h]
+\centering
+\fbox{\includegraphics[width=0.7\textwidth]{geogebra_bloque4_2.png}}
+\caption{Verificación de la segunda inecuación en GeoGebra}
+\end{figure}
+
+La región sombreada representa todos los valores de $x$ que son mayores o iguales a $0.8$. Las líneas de la región sombreada son continuas porque el símbolo "$\geq$" indica que sí se incluye el valor $x = 0.8$ en la solución (es una desigualdad no estricta). El intervalo solución de la inecuación es $[0.8, +\infty)$.
+
+\paragraph*{Comparando los intervalos de solución de las inecuaciones de los numerales 1) y 2):}
+
+\begin{itemize}
+\item \textbf{Semejanzas:} Ambos intervalos incluyen todos los valores mayores que $0.8$.
+\item \textbf{Diferencias:} La inecuación 2 incluye también el valor $x = 0.8$, mientras que la inecuación 1 no lo incluye. Esto se refleja en la notación de intervalos: $(0.8, +\infty)$ versus $[0.8, +\infty)$.
+\end{itemize}
+
+\paragraph*{Parte 2: Inecuaciones simultáneas $-1 < ax < 2$}
+
+\begin{table}[h]
+\centering
+\caption{Registro de la solución obtenida por medio de GeoGebra de la inecuación simultánea.}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Valor del deslizador} & \textbf{Solución como intervalo} & \textbf{Solución gráfica} \\
+\hline
+-5 & (0.4, 0.2) & [IMAGEN] \\
+\hline
+-4 & (0.5, 0.25) & [IMAGEN] \\
+\hline
+-3 & (0.67, 0.33) & [IMAGEN] \\
+\hline
+-2 & (1, 0.5) & [IMAGEN] \\
+\hline
+-1 & (2, 1) & [IMAGEN] \\
+\hline
+1 & (-2, 2) & [IMAGEN] \\
+\hline
+2 & (-1, 1) & [IMAGEN] \\
+\hline
+3 & (-0.67, 0.67) & [IMAGEN] \\
+\hline
+4 & (-0.5, 0.5) & [IMAGEN] \\
+\hline
+5 & (-0.4, 0.4) & [IMAGEN] \\
+\hline
+\end{tabular}
+\end{table}
+
+\paragraph*{Para los valores negativos de "a":}
+\begin{itemize}
+\item Al revisar la solución gráfica, se observa que a medida que "a" toma valores mayores (más cercanos a cero), el intervalo se hace más amplio.
+\item Al revisar la solución como intervalo, se observa que el sentido de la desigualdad cambia debido a que cuando multiplicamos una desigualdad por un número negativo, el sentido de la desigualdad se invierte.
+\end{itemize}
+
+\paragraph*{Para los valores positivos de "a":}
+\begin{itemize}
+\item Al revisar la solución gráfica, se observa que a medida que "a" toma valores mayores, el intervalo se hace más estrecho.
+\item Al revisar la solución como intervalo, se observa que el sentido de la desigualdad se conserva porque estamos multiplicando por números positivos.
+\end{itemize}
+
+\paragraph*{Conclusiones a partir de los resultados observados:}
+\begin{enumerate}
+\item Cuando multiplicamos una desigualdad por un número negativo, el sentido de la desigualdad se invierte.
+\item La amplitud del intervalo solución es inversamente proporcional al valor absoluto del coeficiente "a".
+\end{enumerate}
+
+\subsection*{Del ejercicio seleccionado del bloque 5: Aplicación Álgebra (video)}
+
+\textbf{Enunciado:} En un triángulo rectángulo, uno de sus ángulos agudos es 20º menor que el otro. ¿Cuánto miden sus dos ángulos agudos?
+
+\subsubsection*{Desarrollo del ejercicio seleccionado del bloque 5: Aplicación Álgebra (video)}
+
+\paragraph*{1) Representación en lenguaje algebraico:}
+
+Sabemos que en todo triángulo, la suma de sus ángulos internos es igual a 180°.
+En un triángulo rectángulo, uno de los ángulos mide 90°.
+
+Definamos:
+\begin{itemize}
+\item Sea $x = $ medida del ángulo agudo mayor (en grados)
+\item Sea $y = $ medida del ángulo agudo menor (en grados)
+\end{itemize}
+
+Según el enunciado, $y$ es 20° menor que $x$, por lo tanto:
+\begin{equation}
+y = x - 20°
+\end{equation}
+
+Como la suma de los ángulos internos de un triángulo es 180°, tenemos:
+\begin{equation}
+x + y + 90° = 180°
+\end{equation}
+
+\paragraph*{2) Resolución:}
+
+Sustituimos $y = x - 20°$ en la ecuación:
+
+\begin{align}
+x + (x - 20°) + 90° &= 180°\\
+\end{align}
+
+Agrupamos términos:
+
+\begin{align}
+2x - 20° + 90° &= 180°\\
+2x + 70° &= 180°\\
+2x &= 110°\\
+x &= 55°
+\end{align}
+
+Ahora calculamos $y$:
+
+\begin{align}
+y &= x - 20°\\
+&= 55° - 20°\\
+&= 35°
+\end{align}
+
+\paragraph*{3) Verificación:}
+
+Comprobamos que la suma de los ángulos es 180°:
+\begin{align}
+x + y + 90° &= 55° + 35° + 90°\\
+&= 180° \checkmark
+\end{align}
+
+También verificamos que $y$ es 20° menor que $x$:
+\begin{align}
+x - y &= 55° - 35°\\
+&= 20° \checkmark
+\end{align}
+
+\begin{figure}[h]
+\centering
+\fbox{\includegraphics[width=0.7\textwidth]{geogebra_bloque5.png}}
+\caption{Verificación del ejercicio del bloque 5 en GeoGebra}
+\end{figure}
+
+\textbf{Enlace de grabación del video explicativo:} [ENLACE DEL VIDEO]
+
+\textbf{Respuesta:} Los dos ángulos agudos del triángulo rectángulo miden 55° y 35°.
+
+\section*{Conclusiones}
+
+Through this assignment, I have strengthened my understanding of algebraic concepts and their practical applications in solving real-world problems. Working with first-degree equations allowed me to model and solve a problem involving the distribution of marbles between two people. The system of linear equations exercise demonstrated an interesting case where two equations represent the same line, resulting in infinite solutions. The quadratic equation required the application of the quadratic formula, reinforcing my knowledge of this fundamental algebraic tool. The work with inequalities in GeoGebra helped me visualize how different inequality symbols affect the solution set, and how coefficient values influence the behavior of simultaneous inequalities. Finally, applying algebraic techniques to solve a geometric problem involving a right triangle demonstrated the interdisciplinary nature of mathematics. This comprehensive exercise has not only improved my algebraic skills but also enhanced my ability to translate real-world situations into mathematical models and solve them effectively.
+
+\section*{Referencias bibliográficas}
+
+Ángel, A. R., \& Runde, D. C. (2013). Algebra intermedia. Pearson Educación. (pp. 217-228; 522-542)
+
+Covelo, L. (2020). Matemática 3 (1 ed.). Editorial Maipue.
+
+Escobar, J. (2020) Objeto Virtual de Aprendizaje No. 1. Aplicación de las ecuaciones de primer grado.
+
+GeoGebra. (2024). Classic - GeoGebra. Obtenido de https://www.geogebra.org/classic
+
+Oteyza, E., Lam, E., Hernandez C., \& Carrillo, A. (2013) Álgebra. México. S.A. Editorial Pearson. (pp. 483-494)
+
+\end{document}
+"""
+
+# Paso 2: Guardar el contenido en un archivo LaTeX
+with open("tarea_algebra.tex", "w", encoding="utf-8") as f:
+    f.write(latex_content)
+
+# Paso 3: Instalar Pandoc y pandoc-eqnos en Google Colab
+!apt-get install -y pandoc
+!pip install pandoc-eqnos
+
+# Paso 4: Convertir el archivo LaTeX a documento Word (.docx)
+!pandoc tarea_algebra.tex -o tarea_algebra.docx --filter pandoc-eqnos
+
+# Paso 5: Descargar el archivo Word generado
+from google.colab import files
+files.download("tarea_algebra.docx")
